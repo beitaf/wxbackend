@@ -1,0 +1,44 @@
+.w-content {
+    height: calc(100% - 50px);
+   
+    padding: 20px;
+    .w-list {
+      .el-table__body-wrapper{
+        max-height: calc(100vh - 340px);
+        overflow-y: auto;
+      }
+    }
+    .w-search {
+      align-items: center;
+      margin-bottom: 10px;
+      .w-search-label {
+        margin-right: 10px;
+        margin-left: 20px;
+      }
+      .w-search-label:nth-of-type(1) {
+        margin-left: 0;
+      }
+      
+      .el-input {
+        width: 200px;
+      }
+    }
+  
+    .w-list {
+      text-align: left;
+      background: #fff;
+      padding: 16px;
+      font-size: 13px;
+    }
+    
+    .w-form {
+      background: #fff;
+      padding: 30px 0 20px;
+      .el-form-item__content { text-align: left; margin-left: 160px!important; }
+      .el-input, .el-textarea {
+        width: 500px;
+      }
+    }
+  }
+  
+  
